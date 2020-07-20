@@ -1,6 +1,6 @@
 # Make REST requests from a React App to a NodeJS Server using Axios 
 
-In this video tutorial, we will create a React App to display a simple blogging feature that uses Axios to make REST requests to a local NodeJS / Express server (that acts as a proxy to a local Ghost Headless CMS which stores the blog content). In the last video, we setup a NodeJS server to act as an intermediary for handling requests to the Ghost Headless CMS. 
+In this [video tutorial](https://youtu.be/HSRgBaniSQU), we will create a React App to display a simple blogging feature that uses Axios to make REST requests to a local NodeJS / Express server (that acts as a proxy to a local Ghost Headless CMS which stores the blog content). In the last video, we setup a NodeJS server to act as an intermediary for handling requests to the Ghost Headless CMS. 
 
 ## Create the React App
 
