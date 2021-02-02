@@ -150,6 +150,7 @@ import axios from 'axios';
 - Run Chrome using the following command to shut off Cross Origin Resource Sharing security
 ```
 "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-web-security --disable-gpu --user-data-dir=~/chromeTemp
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-web-security --disable-gpu --user-data-dir=~/chromeTemp
 ```
 - Manually connect to the localhost server at http://localhost:3000/
 

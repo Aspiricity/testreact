@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
-
+import CardGroup from './components/CardGroup';
 
 const Blog = () => {
   const [data, setData] = useState({posts: []});
@@ -21,17 +21,9 @@ const Blog = () => {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Test Blog Page</h1>
-        <ul>
-          {data.posts.map(post => (
-            <li key={post.id}>
-              <Link className='App-link' to={`/blog/post/${post.id}`}>{post.title}</Link>
-            </li>
-          ))}
-        </ul>
-        <Link className='App-link' to='/'>Go to Home</Link>
-      </header>
+      <h1>Test Blog Page</h1>
+      <CardGroup posts={data.posts} />
+      <Link className='App-link' to='/'>Go to Home</Link>
     </div>
   );
 }
